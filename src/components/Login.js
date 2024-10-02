@@ -19,8 +19,6 @@ const Login = () => {
   const dispatch = useDispatch()
  
   const handleButtonClick = () =>{
-    // console.log(email.current.value)
-    // console.log(password.current.value)
     const messsage = checkValidData(email.current.value,password.current.value)
     setErrorMessage(messsage)
 
